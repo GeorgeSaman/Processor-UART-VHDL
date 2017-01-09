@@ -22,7 +22,7 @@ This block diagram shows the functional units of Rx_Top.
 * **$** indicates the beginning of a command.
 * **W/R** the second character can be either W or R. W to Write to memory , R to Read.
 * **Address** this is the memory address to write to or read from.
-* **Data/Zero** if its a Write then this byte will carry the data to be written, if its a read this must be zero.
+* **Data/Zero** if its a Write then this byte will carry the data to be written into memory, if its a read this must be zero.
 
 ## How It Works
 * Using a serial terminal ( ex. Putty , minicom) a command is sent serial to your FPGA.
