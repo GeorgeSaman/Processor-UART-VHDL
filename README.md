@@ -25,7 +25,7 @@ This block diagram shows the functional units of Rx_Top.
 * **Data/Zero** if its a Write then this byte will carry the data to be written into memory, if its a read this must be zero.
 
 ## How It Works
-* Using a serial terminal ( ex. Putty , minicom) a command is sent serial to your FPGA.
+* Using a serial terminal ( ex. Putty , minicom) a command is sent serially to your FPGA.
 * when a character is received, the receiver will set **D_Valid** high to indicate there is data present in the **RX register**.
 * The controller will set **FiFo_Write** high to save the data stored in **Rx register** into the FiFo.
 * When all 4 characters are received, **FiFo** will be **Full** and the controller will set **FiFo_valid** and **FiFo_Read** both high for **Get_command** block to start decoding the command in FiFo.
