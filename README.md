@@ -4,6 +4,8 @@ Command processor with UART interface -VHDL
 >This Repo contains multiple functional units that you can use in your own project such as 
 a **FIFO , Rx , Tx , Memory Unit , Clock Generator**.
 
+Feel Free to email me: **Georgesaman@csu.fullerton.edu**
+
 ## Index
 * The Big Picture.
 * Command Format.
